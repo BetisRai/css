@@ -7,10 +7,51 @@ color:brown;
 }
 #REDT{
     color:red;
+     
+         
 }
+.whiteT{
+    text-align: center;
+    border:10px groove;
+    border-radius:10px;
+    border-bottom-color:#009900; /* Green */
+    border-top-color:green;    /* Red */
+    border-left-color:green;   /* Black */
+    border-right-color:green;  /* Blue */
+ padding:10px 
+}
+.BlueT{
+    margin: auto;
+    font-size:50px;
+  width: 70%;
+  border: 3px solid green;
+  padding: 10px;
+
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+#navT{
+   display:flex;
+   display:wrap;
+}
+.block1{
+display:flex;
+justify-content:left;
+}
+.block2{
+
+display:flex;
+justify-content:center;
+}
+.block3{
+display:flex;
+justify-content:right;
+}
+
 body{
-    background-color:blue;
-}
-.marzin{
-    margin-top;
+    background-color:rgb(80, 59, 125);
 }
